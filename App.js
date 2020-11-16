@@ -264,10 +264,7 @@ export default class App extends Component {
             backgroundColor: "transparent",
           }}
           resizeMethod="center"
-          source={{
-            uri:
-              "https://media-exp1.licdn.com/dms/image/C5603AQEH1JDCP6hYng/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=rDroD72YtQcnCnjRCI1qlTpZOjpmbSr7ThOCJ5dZVd4",
-          }}
+          source={{uri:'./assets/profile_photo.jpg'}}
         />
         <Card
           style={{
