@@ -1,10 +1,13 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://pgomezponce.github.io/about-me",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo build:web",
     "eject": "expo eject"
   },
   "dependencies": {
@@ -23,7 +26,8 @@
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "gh-pages": "^3.1.0"
   },
   "private": true
 }
